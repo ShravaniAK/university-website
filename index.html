@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="logo" src="img/unilogo.jpg" alt=""></a>
+            <div class="navbar" id="navlinks">
+                <i class="fa  fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">courses</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa  fa-bars" onclick="showmenu()"></i>
+        </nav>
+<div class="navbar-info">
+    <h1>Worlds finest university </h1>
+    <p>great people like tridib nandi , karan patel , pryatush dixit, om waikar, tarun shau ; and many more donkeys study here</p>
+    <a  class="btn1" href="">click here to know more</a>
+</div>
+    </section>
+    <section class="course">
+        <h1>Courese we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="course-box">
+                <h1>BTECH IN IT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum placeat nam hic cupiditate? Quo dolorum pariatur placeat odit?</p>
+            </div>
+            <div class="course-box">
+                <h1>BTECH IN IT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum placeat nam hic cupiditate? Quo dolorum pariatur placeat odit?</p>
+            </div>
+            <div class="course-box">
+                <h1>BTECH IN IT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum placeat nam hic cupiditate? Quo dolorum pariatur placeat odit?</p>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0"
+        }
+        
+        function hidemenu(){
+            navlinks.style.right="-200px"
+        }
+    </script>
+
+</body>
+</html>
